@@ -13,7 +13,7 @@ Node Class
 A CoffeeScript Class which implements methods to implement a simple tree
 structure.
 
-See the tests in ``test-js/node-spec.coffee`` for usage.
+See the tests in `test-js/node-spec.coffee` for usage.
 
 
 Links
