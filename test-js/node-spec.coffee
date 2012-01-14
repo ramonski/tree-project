@@ -32,10 +32,10 @@ describe "Simple Tree", ->
             @child2 = new Node 'child node 2'
             @sub_child1 = new Node 'sub child node 1'
             @sub_child2 = new Node 'sub child node 2'
-            @child1.add_child_nodes @sub_child1, @sub_child2
-            @parent.add_child_nodes @child1, @child2
+            @child1.add_child_nodes [@sub_child1, @sub_child2]
+            @parent.add_child_nodes [@child1, @child2]
 
-        it "is not root the root node", ->
+        it "child node is not the root node", ->
             (expect @child1.is_root()).toBeFalsy()
             (expect @child2.is_root()).toBeFalsy()
 
@@ -55,3 +55,5 @@ describe "Simple Tree", ->
 
         it "gets root of sub child nodes", ->
             (expect @sub_child1.get_root().id).toEqual("parent node")
+#
+# vim: set ft=coffee ts=4 sw=4 expandtab:
