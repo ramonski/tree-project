@@ -21,6 +21,6 @@ Links
 
 http://jashkenas.github.com/coffee-script
 
-http://pivotal.github.com/jasmine/
+https://jasmine.github.io/
 
 ..  vim: set ft=rst tw=75 nocin nosi ai sw=4 ts=4 expandtab:
